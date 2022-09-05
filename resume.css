@@ -1,0 +1,137 @@
+body {
+    background: #000;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: arial;
+  }
+  .wrapper {
+    width: 1024px;
+    background: #fff;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sidebar {
+    background: #2a78ab;
+    width: 30%;
+    padding: 50px 30px;
+  }
+  
+  .profilePic {
+    width: 200px;
+    margin: auto;
+  }
+  .profilePic img {
+    width: 200px;
+    border-radius: 50%;
+  }
+  .sidebar h2,
+  .sidebar h4,
+  .sidebar h5 {
+    text-transform: uppercase;
+    color: #fff;
+    /*text-align: center;*/
+  }
+  .sidebar h2 {
+    margin-top: 40px;
+    line-height: 1px;
+  }
+  ul.contact {
+    padding: 0;
+  }
+  ul.contact li {
+    list-style: none;
+    color: #fff;
+    line-height: 21px;
+  }
+  
+  
+  .sidebar a:link,
+  .sidebar a:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+  .sidebar a:hover {
+    color: #000;
+  }
+  
+  .sidebar h5 {
+    margin-top: 46px;
+  }
+  ul.skills {
+  padding: 0;
+}
+  ul.skills  {
+    
+    color: #fff;
+    line-height: 21px;
+  }
+  .content {
+    flex: 1;
+    padding: 20px 0 20px 30px;
+  }
+  .icon
+  {
+padding: auto;
+  }
+  .content h2 {
+    background: #e0effa;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #333;
+  }
+  
+  .box {
+    
+    
+
+  }
+  .title {
+    font-weight: bold;
+    font-size: 16px;
+
+}
+  .logo_sal {
+    background: url("salesexecutive.jpg");
+    background-repeat: no-repeat;
+    background-size: 7%;
+    font-size: 30px;
+  }
+
+  .logo_tel {
+    background: url("telecaller.jpg");
+    background-repeat: no-repeat;
+    background-size: 7%;
+    font-size: 30px; 
+  
+  }
+
+  .logo_edu {
+    background: url("educztion_logo.jpg");
+    background-repeat: no-repeat;
+    background-size: 7%;
+    font-size: 30px;
+  }
+
+  .logo_12th {
+    background: url("high_school.jpg");
+    background-repeat: no-repeat;
+    background-size: 7%;
+    font-size: 30px;
+  }
+  .logo_10th {
+    background: url("10th_logo.png");
+    background-repeat: no-repeat;
+    background-size: 7%;
+    font-size: 30px;
+  
+  }
+  @media (max-width: 480px) {
+    .wrapper {
+      width: auto;
+    }
+    .sidebar {
+      width: 100%;
+    }
+  }
